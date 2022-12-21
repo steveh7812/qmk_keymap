@@ -1,1 +1,6 @@
 SRC += source.c
+
+USER_NAME := steveh7812
+
+RGBLIGHT_ENABLE = no
+RGB_MATRIX_ENABLE = yes
