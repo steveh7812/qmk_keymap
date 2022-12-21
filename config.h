@@ -5,12 +5,13 @@
 // #define EE_HANDS
 
 #ifdef OLED_ENABLE
-#   define SPLIT_LAYER_STATE_ENABLE
-#   define SPLIT_LED_STATE_ENABLE
-#   define SPLIT_MODS_ENABLE
-#   define SPLIT_OLED_ENABLE
-#   define OLED_FONT_H "glcdfont.c"
-#   define OLED_TIMEOUT 30000
+    #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+// #   define SPLIT_LAYER_STATE_ENABLE
+// #   define SPLIT_LED_STATE_ENABLE
+// #   define SPLIT_MODS_ENABLE
+// #   define SPLIT_OLED_ENABLE
+// #   define OLED_FONT_H "glcdfont.c"
+// #   define OLED_TIMEOUT 30000
 #endif
 
 #ifdef RGB_MATRIX_ENABLE
